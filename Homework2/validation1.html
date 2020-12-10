@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Validation Form</title>
+<script src="./validation1.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.errorMessage{color: red;}
+</style>
+</head>
+<body>
+<form id = "info" action="">
+	<p id="FirstName">
+	  <label for="first name">First name:</label>
+	  <input type="text" id="first name" name="first name"/>
+	</p>
+	<p id="LastName">
+	  <label for="last name">Last name:</label>
+	  <input type="text" id="last name" name="last name"/>
+	</p>
+	<p id="Gender">
+	  <label for="gender">Gender:</label><br/>
+	  <select name="gender">
+		<option value = "male">Male</option>
+		<option value = "female">Female</option>
+		</select>
+	</p>
+	<p id="State">
+		<label for="state">State:</label><br/>
+		<select name="state">
+		<option value="California">California</option>
+		<option value="Florida">Florida</option>
+		<option value="New York">New York</option>
+		<option value="Texas">Texas</option>
+		<option value="Hawaii">Hawaii</option>
+		<option value="Washington">Washington</option>
+		<option value="Colorado">Colorado</option>
+		<option value="Virginia">Virginia</option>
+		<option value="Iowa">Iowa</option>
+		<option value="Arizona">Arizona</option>
+		</select>
+	</p>
+
+		<input onClick="validate1()" type="button" id="continue" name="continue" value="Continue"/>
+ </form>
+ </body>
+ </html>
+ 
